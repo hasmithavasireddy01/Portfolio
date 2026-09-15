@@ -209,6 +209,33 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .hero-inner { position: relative; z-index: 1; max-width: 780px; }
 
+.pride-tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.pride-label {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--gold);
+  white-space: nowrap;
+}
+.pride-heart { color: var(--rose); font-size: 0.9rem; line-height: 1; position: relative; top: 1px; }
+.pride-line {
+  flex: 1 1 auto;
+  min-width: 32px;
+  max-width: 160px;
+  height: 1px;
+  align-self: center;
+  background: linear-gradient(to right, var(--gold), transparent);
+}
+.pride-tag .eyebrow { margin-bottom: 0; line-height: 1; white-space: nowrap; }
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.14em;
